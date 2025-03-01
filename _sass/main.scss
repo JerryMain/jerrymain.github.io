@@ -13,6 +13,7 @@ body {
   max-width: 1280px;
   margin-inline: auto;
   color: white;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
 }
 
 nav {
@@ -29,6 +30,7 @@ nav {
 
 .topbar {
   background-color: #000000;
+  border-bottom: 1px solid white;
 }
 
 .topbar-inner {
