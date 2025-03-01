@@ -6,7 +6,15 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    <div class="topbar">
+      <div class="topbar-inner">
+        {% include navigation.html %}
+      </div>
+    </div>
+    <div class="content">
+      <div class="content-inner">
+        {{ content }}
+      </div>
+    </div>
   </body>
 </html>
