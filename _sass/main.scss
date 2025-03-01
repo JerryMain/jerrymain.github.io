@@ -1,3 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  background-color: #252a34;
+}
+
+.content-inner {
+  max-width: 1280px;
+  margin-inline: auto;
+  color: white;
+}
+
+nav {
+  font-size: 28px;
+
+  a {
+    color: gray;
+
+    &:hover {
+      color: darkgray;
+    }
+  }
+}
+
+.topbar {
+  background-color: #000000;
+}
+
+.topbar-inner {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 1em;
+}
+
 .current {
-  color: purple;
+  font-weight: bold;
 }
