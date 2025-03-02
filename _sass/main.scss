@@ -7,36 +7,36 @@ body {
 }
 
 .content {
-  background-color: #252a34;
+  background-color: #2e3138;
   flex-grow: 1;
 }
 
 .content-inner {
-  max-width: 1280px;
+  max-width: 80%;
   margin-inline: auto;
-  color: white;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  color: #ffffff;
+  text-shadow: 1px 1px 4px #00000080;
 }
 
 nav {
   font-size: 28px;
 
   a {
-    color: gray;
+    color: #808080;
 
     &:hover {
-      color: darkgray;
+      color: #a9a9a9;
     }
   }
 }
 
 .topbar {
-  background-color: #000000;
-  border-bottom: 1px solid white;
+  background-color: #252a34;
+  border-bottom: 1px solid #ffffff;
 }
 
 .topbar-inner {
-  max-width: 1280px;
+  max-width: 80%;
   margin-inline: auto;
   padding: 1em;
 }
