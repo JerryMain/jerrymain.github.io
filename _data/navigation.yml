@@ -1,2 +1,6 @@
 - name: Home
   link: /
+- name: Articles
+  link: /
+- name: Lectures
+  link: /
