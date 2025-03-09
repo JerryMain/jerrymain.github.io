@@ -21,6 +21,7 @@ body {
 
 nav {
   font-size: 28px;
+  margin-left: auto;
 
   a {
     color: #808080;
@@ -37,6 +38,7 @@ nav {
 }
 
 .topbar-inner {
+  display: flex;
   max-width: 80%;
   margin-inline: auto;
   padding: 1em;
