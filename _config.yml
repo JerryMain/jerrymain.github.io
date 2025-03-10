@@ -1,6 +1,12 @@
 defaults:
   - scope:
       path: ""
+      type: "pages"
     values:
       layout: "default"
+      permalink: /:path/:basename/
+  - scope:
+      path: "assets"
+    values:
+      permalink: /:path/:basename:output_ext
 show_drafts: true

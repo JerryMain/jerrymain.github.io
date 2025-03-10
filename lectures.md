@@ -1,4 +1,3 @@
 ---
 title: Lectures
-permalink: /lectures/
 ---
