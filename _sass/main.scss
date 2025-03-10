@@ -3,16 +3,11 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  min-height: 100vh;
   font-family:'Courier New', Courier, monospace;
-}
-
-.content {
   background-color: #2e3138;
-  flex-grow: 1;
 }
 
-.content-inner {
+main {
   max-width: 80%;
   margin-inline: auto;
   color: #ffffff;
