@@ -21,10 +21,17 @@ nav {
 
   a {
     color: #808080;
+    text-decoration-line: none;
 
     &:hover {
       color: #a9a9a9;
+      text-decoration-line: underline;
+      text-decoration-style: dashed;
     }
+  }
+
+  .current {
+    text-decoration-line: underline;
   }
 }
 
@@ -34,13 +41,10 @@ header {
 
   .inner {
     display: flex;
+    align-items: baseline;
     max-width: 800px;
     width: 80%;
     margin-inline: auto;
     padding: 1em;
   }
-}
-
-.current {
-  font-weight: bold;
 }
