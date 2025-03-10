@@ -9,4 +9,9 @@ defaults:
       path: "assets"
     values:
       permalink: /:path/:basename:output_ext
+
+collections:
+  posts:
+    permalink: /articles/:year/:month/:day/:title:output_ext
+
 show_drafts: true
