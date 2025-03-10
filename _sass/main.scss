@@ -32,16 +32,16 @@ nav {
   }
 }
 
-.topbar {
+header {
   background-color: #252a34;
   border-bottom: 1px solid #ffffff;
-}
 
-.topbar-inner {
-  display: flex;
-  max-width: 80%;
-  margin-inline: auto;
-  padding: 1em;
+  .inner {
+    display: flex;
+    max-width: 80%;
+    margin-inline: auto;
+    padding: 1em;
+  }
 }
 
 .current {
