@@ -13,5 +13,6 @@ defaults:
 collections:
   posts:
     permalink: /articles/:year/:month/:day/:title:output_ext
+  lectures:
 
 show_drafts: true
