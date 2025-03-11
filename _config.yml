@@ -6,6 +6,11 @@ defaults:
       layout: "default"
       permalink: /:path/:basename/
   - scope:
+      path: ""
+      type: "lectures"
+    values:
+      layout: "abstract"
+  - scope:
       path: "assets"
     values:
       permalink: /:path/:basename:output_ext
