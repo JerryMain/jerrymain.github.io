@@ -5,6 +5,8 @@ layout: default
 <div>
   {{ content }}
 </div>
-<iframe class="slides" width="600" height="400" marginheight="0" marginwidth="0" src="/{{ page.project }}/">
-  fallback text for unsupporting browsers
-</iframe>
+<div class="slides-wrapper">
+  <iframe class="slides" src="/{{ page.project }}/">
+    fallback text for unsupporting browsers
+  </iframe>
+</div>
