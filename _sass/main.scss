@@ -59,4 +59,14 @@ main {
   h3 {
     font-size: 1.15em;
   }
+
+  .slides-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .slides {
+    width: 60%;
+    aspect-ratio: 16/9;
+  }
 }
