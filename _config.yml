@@ -14,5 +14,6 @@ collections:
   posts:
     permalink: /articles/:year/:month/:day/:title:output_ext
   lectures:
+    output: true
 
 show_drafts: true
