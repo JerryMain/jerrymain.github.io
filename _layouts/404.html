@@ -1,0 +1,14 @@
+---
+layout: body
+---
+
+{% include header.html %}
+<main>
+  {{ content }}
+</main>
+<script>
+  // disable header if page is embedded
+  if (window.frameElement) {
+    document.getElementsByTagName("header")[0].style.visibility = "hidden"
+  }
+</script>
