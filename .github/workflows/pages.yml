@@ -1,0 +1,20 @@
+on:
+  push:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  build:
+    permissions:
+      contents: read
+      pages: read
+    uses: ./.github/workflows/build.yml
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
