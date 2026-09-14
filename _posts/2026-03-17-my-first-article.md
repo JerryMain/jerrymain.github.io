@@ -29,7 +29,7 @@ the content, in the event that I decide the framework needs
 to be replaced.
 
 In the end I decided to host it with GitHub Pages and generating
-the static contens using Jekyll, as that is supported out of
+the static content using Jekyll, as that is supported out of
 the box when using GitHub.
 
 While this may not be a very original choice, it would mean
